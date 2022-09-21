@@ -110,7 +110,7 @@ If we want to make the first example work so that `handleClick` is called in
 like so:
 
 ```jsx
-function Clickable({ onClick }) {
+function Clickable({ onClick }) { /*Here, onClick is passed on as a prop*/
   return <button onClick={onClick}>Click Me</button>;
 }
 
